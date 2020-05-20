@@ -2,7 +2,9 @@
 
 cat /etc/nginx/conf.d/default.conf
 
-wget -O- -S http://localhost
+service nginx start
+
+service nginx status
 
 # Run codeception tests
 vendor/bin/codecept run $*
