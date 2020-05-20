@@ -1,6 +1,10 @@
 #!/bin/sh -l
 
-cat /etc/nginx/conf.d/default.conf
+ls /usr/share/nginx/html/public
+
+ls /usr/share/nginx/html/
+
+ls /
 
 # Run codeception tests
 #vendor/bin/codecept run $*
