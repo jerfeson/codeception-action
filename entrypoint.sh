@@ -1,6 +1,5 @@
 #!/bin/sh -l
 
-cat /etc/nginx/conf.d/default.conf
 
 service nginx start
 
