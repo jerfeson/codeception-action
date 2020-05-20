@@ -3,4 +3,4 @@
 cat /etc/nginx/conf.d/default.conf
 
 # Run codeception tests
-vendor/bin/codecept run $*
+#vendor/bin/codecept run $*
