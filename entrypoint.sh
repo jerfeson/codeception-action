@@ -12,4 +12,4 @@ chmod 660 /github/workspace/data/keys/oauth/public.key
 ls -l /github/workspace/data/keys/oauth/
 
 # Run codeception tests
-vendor/bin/codecept run $*
+composer test
