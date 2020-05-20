@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-ls /github/home
+ls /github/workspace
 
 # Run codeception tests
 #vendor/bin/codecept run $*
