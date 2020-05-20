@@ -1,10 +1,6 @@
 #!/bin/sh -l
 
-ls /usr/share/nginx/html/public
-
-ls /usr/share/nginx/html/
-
-ls /
+ls /github/home
 
 # Run codeception tests
 #vendor/bin/codecept run $*
